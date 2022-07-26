@@ -9,21 +9,21 @@ import "github.com/Prasoon180/superPAD_PROJECT_25JULY2022/blob/main/IBEP20.sol";
 contract IDO  {                   // This is main contract ie; IDO.sol
 
 IBEP20  public  bep20Address;
-uint _weeksforPrivate;
-uint _weeksforPublic;                   // define variable of weeks and months of individual item
-uint _monthsforReward;
-uint _monthsforReserve;
-uint _monthsforTeam;
-uint _monthsforMarket;
-uint _monthsforLiquidity;
+uint public _weeksforPrivate;
+uint public _weeksforPublic;                   // define variable of weeks and months of individual item
+uint public _monthsforReward;
+uint public _monthsforReserve;
+uint public _monthsforTeam;
+uint public _monthsforMarket;
+uint public _monthsforLiquidity;
 
-uint _TGEforPrivate;
-uint _TGEforPublic;
-uint _TGEforReserve;
-uint _TGEforReward;                    // define variable of TGE of individual item
-uint _TGEforTeam;
-uint _TGEforLiquidity;
-uint _TGEforMarket;
+uint public _TGEforPrivate;
+uint public _TGEforPublic;
+uint public _TGEforReserve;
+uint public _TGEforReward;                    // define variable of TGE of individual item
+uint public _TGEforTeam;
+uint public _TGEforLiquidity;
+uint public _TGEforMarket;
 address public owner;
 
 constructor(address _bep20Address) {
