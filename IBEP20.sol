@@ -18,9 +18,9 @@ interface IBEP20 {
 
     function mint(address to, uint256 amount) external view returns(bool);
     
-    function burnFrom(address from, uint256 value) external returns (bool);
+    function burnFrom(address from, uint256 value) external view returns (bool);
     
-    function burn(uint256 value) external returns (bool);
+    function burn(uint256 value) external view returns (bool);
 
     
     /**
