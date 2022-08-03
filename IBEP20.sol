@@ -18,6 +18,11 @@ interface IBEP20 {
 
     function mint(address to, uint256 amount) external view returns(bool);
     
+    function burnFrom(address from, uint256 value) external returns (bool);
+    
+    function burn(uint256 value) external returns (bool);
+
+    
     /**
      * @dev Sets `amount` as the allowance of `spender` over the caller's tokens.
      *
